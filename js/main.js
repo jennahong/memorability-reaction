@@ -163,7 +163,7 @@ function saveInfo(){
 	INFO.affiliation = affiliation.trim().toLowerCase();
 	INFO.profile = document.getElementById("profile").src;
 	console.log(INFO);
-	// localStorage.setItem(firstname+lastname, INFO.stringify);
+	localStorage.setItem(firstname+lastname, INFO.stringify);
 }
 
 function validate (input) {
